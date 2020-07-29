@@ -31,6 +31,8 @@ body {
 .shape-list {
   display: flex;
   justify-content: space-evenly;
+  display: flex;
+  flex-direction: row;
 }
 .shape-list div {
   margin-top: 40px;
@@ -39,7 +41,17 @@ body {
 .clicked {
   border: 2px solid white;
 }
-/* shapes */
+.footer{
+  height: 10%;
+  background-color: rgb(175, 146, 146);
+  align-items: center;
+  display: flex;
+  padding-bottom: 10px;
+  justify-content: space-evenly;
+}
+
+
+/* shapes  */
 .circle {
     width: 120px;
     height: 120px;
@@ -54,8 +66,8 @@ body {
     background: #F447FF;
 }
 .oval {
-    width: 200px;
-    height: 100px;
+    width: 150px;
+    height: 80px;
     background: #E9337C;
     -webkit-border-radius: 100px / 50px;
     -moz-border-radius: 100px / 50px;
@@ -90,8 +102,8 @@ body {
     border-bottom: 70px solid transparent;
 }
 .trapezium {
-    height: 0;
-    width: 60px;
+    height: 1px;
+    width:50px;
     border-bottom: 120px solid #EC3504;
     border-left: 60px solid transparent;
     border-right: 60px solid transparent;
